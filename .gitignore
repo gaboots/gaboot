@@ -17,4 +17,3 @@ Homestead.yaml
 /public/service-worker.js
 /database/migrations
 /database/seeds
-/packages
