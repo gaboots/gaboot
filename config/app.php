@@ -184,6 +184,7 @@ return [
 
         // Component
         Consigliere\Foundation\FoundationServiceProvider::class,
+        App\Components\Gaboot\Providers\GabootServiceProvider::class,
 
     ],
 
