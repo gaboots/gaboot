@@ -3,7 +3,6 @@
 const elixir = require('laravel-elixir');
 
 require('laravel-elixir-eslint');
-
 require('./tasks/swPrecache.task.js');
 require('./tasks/bower.task.js');
 
