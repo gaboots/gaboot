@@ -181,16 +181,16 @@
         },
         {
             "name": "componentsv/gaboot",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/componentsv/Gaboot.git",
-                "reference": "f0302ab57c9e06c0fb3c4d336633110480bc65ca"
+                "reference": "6a68a13ec2cafb90dea0eaeafe7de5bc89745a18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/Gaboot/zipball/f0302ab57c9e06c0fb3c4d336633110480bc65ca",
-                "reference": "f0302ab57c9e06c0fb3c4d336633110480bc65ca",
+                "url": "https://api.github.com/repos/componentsv/Gaboot/zipball/6a68a13ec2cafb90dea0eaeafe7de5bc89745a18",
+                "reference": "6a68a13ec2cafb90dea0eaeafe7de5bc89745a18",
                 "shasum": ""
             },
             "require": {
@@ -212,7 +212,7 @@
                     "email": "50c5ac69@opayq.com"
                 }
             ],
-            "time": "2017-04-06T06:47:07+00:00"
+            "time": "2017-04-12T04:24:04+00:00"
         },
         {
             "name": "componentsv/pagination",
@@ -1585,16 +1585,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.17",
+            "version": "v5.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f7675d59e3863a58ecdff1a5ee1dcd0cff788f4b"
+                "reference": "d15ded55b5e690199393ea93a57edcbae20d1ffc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f7675d59e3863a58ecdff1a5ee1dcd0cff788f4b",
-                "reference": "f7675d59e3863a58ecdff1a5ee1dcd0cff788f4b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/d15ded55b5e690199393ea93a57edcbae20d1ffc",
+                "reference": "d15ded55b5e690199393ea93a57edcbae20d1ffc",
                 "shasum": ""
             },
             "require": {
@@ -1710,7 +1710,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-04-03T13:07:39+00:00"
+            "time": "2017-04-10T19:27:41+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -3527,16 +3527,16 @@
         },
         {
             "name": "tcg/voyager",
-            "version": "v0.11.8",
+            "version": "v0.11.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-control-group/voyager.git",
-                "reference": "857d865d2b7f00430833b52b84b6517b68b47395"
+                "reference": "d8894278333d1502d270b216e7f42e6d1df7e87a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/857d865d2b7f00430833b52b84b6517b68b47395",
-                "reference": "857d865d2b7f00430833b52b84b6517b68b47395",
+                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/d8894278333d1502d270b216e7f42e6d1df7e87a",
+                "reference": "d8894278333d1502d270b216e7f42e6d1df7e87a",
                 "shasum": ""
             },
             "require": {
@@ -3550,7 +3550,7 @@
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
                 "laravel/browser-kit-testing": "~1.0.0",
-                "laravel/framework": "~5.3.8|5.4.*",
+                "laravel/framework": "~5.3.29|5.4.*",
                 "orchestra/database": "3.3.*|3.4.x-dev",
                 "orchestra/testbench": "3.3.*|3.4.x-dev",
                 "orchestra/testbench-browser-kit": "~3.3.0|~3.4.0",
@@ -3580,7 +3580,7 @@
                 "laravel",
                 "panel"
             ],
-            "time": "2017-03-28T16:35:53+00:00"
+            "time": "2017-04-06T19:57:14+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -3635,12 +3635,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tymondesigns/jwt-auth.git",
-                "reference": "5edd5ed46d27026003f54cff2281c496bd28e79e"
+                "reference": "3976f19a9d6e2d1e4c4e483fea25d98cf7ffc9f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/5edd5ed46d27026003f54cff2281c496bd28e79e",
-                "reference": "5edd5ed46d27026003f54cff2281c496bd28e79e",
+                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/3976f19a9d6e2d1e4c4e483fea25d98cf7ffc9f2",
+                "reference": "3976f19a9d6e2d1e4c4e483fea25d98cf7ffc9f2",
                 "shasum": ""
             },
             "require": {
@@ -3692,7 +3692,7 @@
                 "jwt",
                 "laravel"
             ],
-            "time": "2017-04-04T18:23:29+00:00"
+            "time": "2017-04-08T17:32:08+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
