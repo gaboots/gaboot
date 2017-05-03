@@ -13,7 +13,4 @@ Homestead.yaml
 /public/build
 /public/views
 /public/storage
-/public/vendor
 /public/service-worker.js
-/database/migrations
-/database/seeds
