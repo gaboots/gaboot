@@ -6,11 +6,13 @@ require('laravel-elixir-eslint');
 require('./tasks/swPrecache.task.js');
 require('./tasks/bower.task.js');
 
+let run = require('gulp-run-command').default;
+
 // setting assets paths
-elixir.config.assetsPath = './';
-elixir.config.css.folder = 'components';
-elixir.config.css.sass.folder = 'components';
-elixir.config.js.folder = 'components';
+elixir.config.assetsPath        = './';
+elixir.config.css.folder        = 'components';
+elixir.config.css.sass.folder   = 'components';
+elixir.config.js.folder         = 'components';
 
 /*
  |--------------------------------------------------------------------------
