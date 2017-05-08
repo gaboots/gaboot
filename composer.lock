@@ -145,16 +145,16 @@
         },
         {
             "name": "componentsv/foundation",
-            "version": "v0.3.2",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/componentsv/Foundation.git",
-                "reference": "c9fd8d1e419a212fe9565349dbc0ec0b3f4e557c"
+                "reference": "ad939e067162d9441a2805ec156426ba3b524ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/Foundation/zipball/c9fd8d1e419a212fe9565349dbc0ec0b3f4e557c",
-                "reference": "c9fd8d1e419a212fe9565349dbc0ec0b3f4e557c",
+                "url": "https://api.github.com/repos/componentsv/Foundation/zipball/ad939e067162d9441a2805ec156426ba3b524ba6",
+                "reference": "ad939e067162d9441a2805ec156426ba3b524ba6",
                 "shasum": ""
             },
             "require": {
@@ -175,20 +175,20 @@
                     "email": "50c5ac69@opayq.com"
                 }
             ],
-            "time": "2017-05-04T10:17:19+00:00"
+            "time": "2017-05-05T08:56:06+00:00"
         },
         {
             "name": "componentsv/gaboot",
-            "version": "v0.2.0",
+            "version": "v0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/componentsv/Gaboot.git",
-                "reference": "74f828564d9f8af9d912b271627d0d1667db2670"
+                "reference": "b7aea1b7f61fd22b4ce31a935028b852c787602e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/Gaboot/zipball/74f828564d9f8af9d912b271627d0d1667db2670",
-                "reference": "74f828564d9f8af9d912b271627d0d1667db2670",
+                "url": "https://api.github.com/repos/componentsv/Gaboot/zipball/b7aea1b7f61fd22b4ce31a935028b852c787602e",
+                "reference": "b7aea1b7f61fd22b4ce31a935028b852c787602e",
                 "shasum": ""
             },
             "require": {
@@ -211,7 +211,7 @@
                     "email": "50c5ac69@opayq.com"
                 }
             ],
-            "time": "2017-05-04T10:30:35+00:00"
+            "time": "2017-05-05T11:22:58+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -274,16 +274,16 @@
         },
         {
             "name": "consigliere/components",
-            "version": "v0.3.0",
+            "version": "v0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consigliere/components.git",
-                "reference": "471384c97e56089b6bffec9e1af156ecd607fe88"
+                "reference": "1ae7fd8641c460fd553cdfcd3539adeefea6f818"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consigliere/components/zipball/471384c97e56089b6bffec9e1af156ecd607fe88",
-                "reference": "471384c97e56089b6bffec9e1af156ecd607fe88",
+                "url": "https://api.github.com/repos/consigliere/components/zipball/1ae7fd8641c460fd553cdfcd3539adeefea6f818",
+                "reference": "1ae7fd8641c460fd553cdfcd3539adeefea6f818",
                 "shasum": ""
             },
             "require": {
@@ -324,7 +324,7 @@
                 "components",
                 "consigliere"
             ],
-            "time": "2017-05-04T11:02:01+00:00"
+            "time": "2017-05-05T08:59:44+00:00"
         },
         {
             "name": "consigliere/foundation",
@@ -1360,16 +1360,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.2.40",
+            "version": "v1.2.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "c5c0f049264edcf6499847c756dc36e51a072313"
+                "reference": "ab6f971acce526074f01c8367b2b8d7d55852d8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/c5c0f049264edcf6499847c756dc36e51a072313",
-                "reference": "c5c0f049264edcf6499847c756dc36e51a072313",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/ab6f971acce526074f01c8367b2b8d7d55852d8b",
+                "reference": "ab6f971acce526074f01c8367b2b8d7d55852d8b",
                 "shasum": ""
             },
             "require": {
@@ -1404,7 +1404,7 @@
                 "crawlerdetect",
                 "php crawler detect"
             ],
-            "time": "2017-04-20T18:58:25+00:00"
+            "time": "2017-05-04T20:01:45+00:00"
         },
         {
             "name": "jenssegers/agent",
