@@ -14,8 +14,3 @@
 Route::get('/', 'AngularController@serveApp');
 
 Route::get('/unsupported-browser', 'AngularController@unsupported');
-
-
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
