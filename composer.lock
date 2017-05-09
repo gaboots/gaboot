@@ -111,16 +111,16 @@
         },
         {
             "name": "componentsv/dblog",
-            "version": "v0.2.0",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/componentsv/DBLog.git",
-                "reference": "edbb663ae05b8f341fc9126e4b48089327ed8f5c"
+                "reference": "a2d9def9b6a7120c4d9d28077f92be2bc298349b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/DBLog/zipball/edbb663ae05b8f341fc9126e4b48089327ed8f5c",
-                "reference": "edbb663ae05b8f341fc9126e4b48089327ed8f5c",
+                "url": "https://api.github.com/repos/componentsv/DBLog/zipball/a2d9def9b6a7120c4d9d28077f92be2bc298349b",
+                "reference": "a2d9def9b6a7120c4d9d28077f92be2bc298349b",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +131,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "App\\Components\\DBLog\\": ""
+                    "App\\Components\\DBLog\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -141,20 +141,20 @@
                     "email": "50c5ac69@opayq.com"
                 }
             ],
-            "time": "2017-04-06T03:47:50+00:00"
+            "time": "2017-05-09T07:22:20+00:00"
         },
         {
             "name": "componentsv/foundation",
-            "version": "v0.3.3",
+            "version": "v0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/componentsv/Foundation.git",
-                "reference": "ad939e067162d9441a2805ec156426ba3b524ba6"
+                "reference": "c66ea3feb89e060876ba4a57a73388679814a509"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/Foundation/zipball/ad939e067162d9441a2805ec156426ba3b524ba6",
-                "reference": "ad939e067162d9441a2805ec156426ba3b524ba6",
+                "url": "https://api.github.com/repos/componentsv/Foundation/zipball/c66ea3feb89e060876ba4a57a73388679814a509",
+                "reference": "c66ea3feb89e060876ba4a57a73388679814a509",
                 "shasum": ""
             },
             "require": {
@@ -165,7 +165,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "App\\Components\\Foundation\\": ""
+                    "App\\Components\\Foundation\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -175,20 +175,20 @@
                     "email": "50c5ac69@opayq.com"
                 }
             ],
-            "time": "2017-05-05T08:56:06+00:00"
+            "time": "2017-05-09T07:20:06+00:00"
         },
         {
             "name": "componentsv/gaboot",
-            "version": "v0.2.1",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/componentsv/Gaboot.git",
-                "reference": "b7aea1b7f61fd22b4ce31a935028b852c787602e"
+                "reference": "32b51e47bb17284e49db908c93e864d1693854be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/Gaboot/zipball/b7aea1b7f61fd22b4ce31a935028b852c787602e",
-                "reference": "b7aea1b7f61fd22b4ce31a935028b852c787602e",
+                "url": "https://api.github.com/repos/componentsv/Gaboot/zipball/32b51e47bb17284e49db908c93e864d1693854be",
+                "reference": "32b51e47bb17284e49db908c93e864d1693854be",
                 "shasum": ""
             },
             "require": {
@@ -201,7 +201,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "App\\Components\\Gaboot\\": ""
+                    "App\\Components\\Gaboot\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -211,7 +211,7 @@
                     "email": "50c5ac69@opayq.com"
                 }
             ],
-            "time": "2017-05-05T11:22:58+00:00"
+            "time": "2017-05-09T07:24:30+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1561,16 +1561,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.21",
+            "version": "v5.4.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "2ed668f96d1a6ca42f50d5c87ee9ceecfc0a6eee"
+                "reference": "fc5c7a18644f231bcb8d02f4ec2f3a2517f5015d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/2ed668f96d1a6ca42f50d5c87ee9ceecfc0a6eee",
-                "reference": "2ed668f96d1a6ca42f50d5c87ee9ceecfc0a6eee",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/fc5c7a18644f231bcb8d02f4ec2f3a2517f5015d",
+                "reference": "fc5c7a18644f231bcb8d02f4ec2f3a2517f5015d",
                 "shasum": ""
             },
             "require": {
@@ -1686,7 +1686,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-04-28T15:40:01+00:00"
+            "time": "2017-05-08T21:45:45+00:00"
         },
         {
             "name": "laravel/passport",
@@ -2562,16 +2562,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "ab8028c93c03cc8d9c824efa75dc94f1db2369bf"
+                "reference": "f8dd0e18d2328c447dd4190fecd11ef52680d968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/ab8028c93c03cc8d9c824efa75dc94f1db2369bf",
-                "reference": "ab8028c93c03cc8d9c824efa75dc94f1db2369bf",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f8dd0e18d2328c447dd4190fecd11ef52680d968",
+                "reference": "f8dd0e18d2328c447dd4190fecd11ef52680d968",
                 "shasum": ""
             },
             "require": {
@@ -2650,7 +2650,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2016-10-04T00:57:04+00:00"
+            "time": "2017-05-08T05:58:35+00:00"
         },
         {
             "name": "psr/http-message",
