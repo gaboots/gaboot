@@ -274,16 +274,16 @@
         },
         {
             "name": "consigliere/components",
-            "version": "v0.3.1",
+            "version": "v0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consigliere/components.git",
-                "reference": "1ae7fd8641c460fd553cdfcd3539adeefea6f818"
+                "reference": "ae1cec5f8612b84d44a285cfd739f6e9b481b627"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consigliere/components/zipball/1ae7fd8641c460fd553cdfcd3539adeefea6f818",
-                "reference": "1ae7fd8641c460fd553cdfcd3539adeefea6f818",
+                "url": "https://api.github.com/repos/consigliere/components/zipball/ae1cec5f8612b84d44a285cfd739f6e9b481b627",
+                "reference": "ae1cec5f8612b84d44a285cfd739f6e9b481b627",
                 "shasum": ""
             },
             "require": {
@@ -324,7 +324,7 @@
                 "components",
                 "consigliere"
             ],
-            "time": "2017-05-05T08:59:44+00:00"
+            "time": "2017-05-09T10:11:49+00:00"
         },
         {
             "name": "consigliere/foundation",
