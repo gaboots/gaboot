@@ -30,9 +30,7 @@
     "classmap": [
       "app",
       "database",
-      "packages",
-      "vendor/componentsv",
-      "vendor/consigliere"
+      "packages"
     ],
     "psr-4"   : {
       "App\\": "app/"
