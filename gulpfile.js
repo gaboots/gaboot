@@ -1,6 +1,7 @@
 'use strict';
 
 const elixir = require('laravel-elixir');
+let del      = require('del');
 
 require('laravel-elixir-eslint');
 require('./tasks/swPrecache.task.js');
@@ -60,4 +61,37 @@ elixir(mix => {
 
     //enable front-end tests by adding the below task
     // .karma({jsDir: karmaJsDir});
+});
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+// var base = 'app/Components', fromComponents = 'Gaboot';
+var base = 'vendor', fromComponents = 'componentsv/gaboot';
+
+// Delete entire folder storage\app\public
+gulp.task('clean-app-public', function () {
+    return del(['./storage/app/public/']).then(paths => {
+        console.log('Deleting public app storage:\n', paths.join('\n'));
+    });
+});
+
+// Copying view resources
+gulp.task('cp-gb', ['clean-app-public'], function () {
+
+    gulp.src(['./' + base + '/' + fromComponents + '/Publish/js/*.*']).pipe(gulp.dest('./public/js/'));
+    gulp.src(['./' + base + '/' + fromComponents + '/Publish/css/*.*']).pipe(gulp.dest('./public/css/'));
+
+    return gulp.src(['./' + base + '/' + fromComponents + '/Publish/storage/app/public/**/*.*']).pipe(gulp.dest('./storage/app/public/'));
+});
+
+gulp.task('app-install', function () {
+
+    gulp.src(['./' + base + '/' + fromComponents + '/Publish/js/*.*']).pipe(gulp.dest('./public/js/'));
+    gulp.src(['./' + base + '/' + fromComponents + '/Publish/css/*.*']).pipe(gulp.dest('./public/css/'));
+    gulp.src(['./' + base + '/' + fromComponents + '/Publish/vendor/passport/database/migrations/*.*']).pipe(gulp.dest('./database/migrations/'));
+    gulp.src(['./' + base + '/' + fromComponents + '/Publish/vendor/voyager/database/migrations/*.*']).pipe(gulp.dest('./database/migrations/'));
+    gulp.src(['./' + base + '/' + fromComponents + '/Publish/vendor/voyager/database/seeds/*.*']).pipe(gulp.dest('./database/seeds/'));
+
+    return gulp.src(['./' + base + '/' + fromComponents + '/Publish/storage/app/public/**/*.*']).pipe(gulp.dest('./storage/app/public/'));
 });
