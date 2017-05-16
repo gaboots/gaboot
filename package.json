@@ -1,8 +1,9 @@
 {
   "private"        : true,
   "scripts"        : {
-    "prod": "gulp --production",
-    "dev" : "gulp watch"
+    "prod"        : "gulp --production",
+    "dev"         : "gulp watch",
+    "appinstall"  : "gulp app-install && php artisan component:publish-asset Gaboot && php artisan vendor:publish --tag=voyager_assets --force && php artisan migrate && composer dump-autoload && php artisan db:seed && php artisan db:seed --class=VoyagerDatabaseSeeder && php artisan db:seed --class=VoyagerDummyDatabaseSeeder && php artisan storage:link && php artisan passport:install"
   },
   "devDependencies": {
     "babel-core"                     : "^6.16.0",
