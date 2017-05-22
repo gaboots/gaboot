@@ -1,9 +1,12 @@
 {
   "private"        : true,
   "scripts"        : {
-    "prod"        : "gulp --production",
-    "dev"         : "gulp watch",
-    "appinstall"  : "gulp app-install && php artisan component:publish-asset Gaboot && php artisan vendor:publish --tag=voyager_assets --force && php artisan migrate && composer dump-autoload && php artisan db:seed && php artisan db:seed --class=VoyagerDatabaseSeeder && php artisan db:seed --class=VoyagerDummyDatabaseSeeder && php artisan storage:link && php artisan passport:install"
+    "prod"              : "gulp --production",
+    "dev"               : "gulp watch",
+    "appinstall"        : "gulp app-install && gulp rw-settingseeder && php artisan component:publish-asset Gaboot && php artisan vendor:publish --tag=voyager_assets --force && php artisan migrate && composer dump-autoload && php artisan db:seed && php artisan db:seed --class=VoyagerDatabaseSeeder && php artisan db:seed --class=VoyagerDummyDatabaseSeeder && php artisan storage:link && php artisan passport:install && gulp rw-assets && gulp",
+    "appinstall-ps"     : "gulp app-install -and gulp rw-settingseeder -and php artisan component:publish-asset Gaboot -and php artisan vendor:publish --tag=voyager_assets --force -and php artisan migrate -and composer dump-autoload -and php artisan db:seed -and php artisan db:seed --class=VoyagerDatabaseSeeder -and php artisan db:seed --class=VoyagerDummyDatabaseSeeder -and php artisan storage:link -and php artisan passport:install && gulp rw-assets && gulp",
+    "devsetup"          : "php -r \"file_exists('.env') || copy('.env.example', '.env');\" && cd packages && mkdir onsigbaar && cd onsigbaar && git clone https://github.com/onsigbaar/components.git && git clone https://github.com/onsigbaar/foundation.git && cd components && composer update && cd ../ && cd foundation && composer update && cd ../../../ && cd app/Components && git clone https://github.com/consigliere/LogDB.git && git clone https://github.com/consigliere/AppFoundation.git && git clone https://github.com/consigliere/Gaboot.git && cd LogDB && composer update && cd ../ && cd AppFoundation && composer update && cd ../ && cd Gaboot && composer update && cd ../../../ && bower install && yarn && composer install && php artisan key:generate && php artisan jwt:secret && composer update && gulp",
+    "devsetup-no-update": "php -r \"file_exists('.env') || copy('.env.example', '.env');\" && cd packages && mkdir onsigbaar && cd onsigbaar && git clone https://github.com/onsigbaar/components.git && git clone https://github.com/onsigbaar/foundation.git && cd ../../ && cd app/Components && git clone https://github.com/consigliere/LogDB.git && git clone https://github.com/consigliere/AppFoundation.git && git clone https://github.com/consigliere/Gaboot.git && cd ../../ && bower install && yarn && composer install && php artisan key:generate && php artisan jwt:secret && gulp"
   },
   "devDependencies": {
     "babel-core"                     : "^6.16.0",
@@ -13,6 +16,7 @@
     "buble"                          : "^0.15.2",
     "buble-loader"                   : "^0.4.0",
     "del"                            : "^2.2.2",
+    "dotenv"                         : "^4.0.0",
     "eslint-plugin-angular"          : "^1.3.1",
     "gulp"                           : "^3.9.1",
     "gulp-concat"                    : "^2.6.1",
