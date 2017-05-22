@@ -67,7 +67,7 @@ elixir(mix => {
 /*------------------------------------------------------------------------------------------------*/
 
 // var base = 'app/Components', fromComponents = 'Gaboot';
-var base = 'vendor', fromComponents = 'componentsv/gaboot';
+var base = 'vendor', fromComponents = 'consigliere/gaboot';
 
 // Delete entire folder storage\app\public
 gulp.task('clean-app-public', function () {
@@ -83,6 +83,14 @@ gulp.task('cp-gb', ['clean-app-public'], function () {
     gulp.src(['./' + base + '/' + fromComponents + '/Publish/css/*.*']).pipe(gulp.dest('./public/css/'));
 
     return gulp.src(['./' + base + '/' + fromComponents + '/Publish/storage/app/public/**/*.*']).pipe(gulp.dest('./storage/app/public/'));
+});
+
+gulp.task('rw-assets', function () {
+    return gulp.src(['./' + base + '/' + fromComponents + '/Publish/vendor/voyager/public/vendor/tcg/voyager/assets/**/**/*.*']).pipe(gulp.dest('./public/vendor/tcg/voyager/assets/'));
+});
+
+gulp.task('rw-settingseeder', function () {
+    return gulp.src(['./' + base + '/' + fromComponents + '/Database/Seeds/SettingsTableSeeder.php']).pipe(gulp.dest('./database/seeds/'));
 });
 
 gulp.task('app-install', function () {
