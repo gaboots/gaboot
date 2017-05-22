@@ -14,3 +14,5 @@ Homestead.yaml
 /public/views
 /public/storage
 /public/service-worker.js
+
+/public/vendor
