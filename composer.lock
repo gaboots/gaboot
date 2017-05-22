@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f49af8a57f7bdfee1b4241d24923e8f2",
+    "content-hash": "33c98853a2abc5fd8ca6dc41e0b55d1e",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -110,110 +110,6 @@
             "time": "2017-02-15T21:21:33+00:00"
         },
         {
-            "name": "componentsv/dblog",
-            "version": "v0.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/componentsv/DBLog.git",
-                "reference": "a2d9def9b6a7120c4d9d28077f92be2bc298349b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/DBLog/zipball/a2d9def9b6a7120c4d9d28077f92be2bc298349b",
-                "reference": "a2d9def9b6a7120c4d9d28077f92be2bc298349b",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "5.3.*|5.4.*",
-                "illuminate/support": "5.3.*|5.4.*",
-                "jenssegers/agent": "^2.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "App\\Components\\DBLog\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "anonymoussc",
-                    "email": "50c5ac69@opayq.com"
-                }
-            ],
-            "time": "2017-05-09T07:22:20+00:00"
-        },
-        {
-            "name": "componentsv/foundation",
-            "version": "v0.3.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/componentsv/Foundation.git",
-                "reference": "c66ea3feb89e060876ba4a57a73388679814a509"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/Foundation/zipball/c66ea3feb89e060876ba4a57a73388679814a509",
-                "reference": "c66ea3feb89e060876ba4a57a73388679814a509",
-                "shasum": ""
-            },
-            "require": {
-                "componentsv/dblog": "0.2.*",
-                "illuminate/contracts": "5.3.*|5.4.*",
-                "illuminate/support": "5.3.*|5.4.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "App\\Components\\Foundation\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "anonymoussc",
-                    "email": "50c5ac69@opayq.com"
-                }
-            ],
-            "time": "2017-05-09T07:20:06+00:00"
-        },
-        {
-            "name": "componentsv/gaboot",
-            "version": "v0.2.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/componentsv/Gaboot.git",
-                "reference": "e37b6b81811806f85e8d5dbcb5b9ce1ba739f815"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/componentsv/Gaboot/zipball/e37b6b81811806f85e8d5dbcb5b9ce1ba739f815",
-                "reference": "e37b6b81811806f85e8d5dbcb5b9ce1ba739f815",
-                "shasum": ""
-            },
-            "require": {
-                "componentsv/foundation": "0.3.*",
-                "illuminate/contracts": "5.4.*",
-                "illuminate/support": "5.4.*",
-                "laravel/passport": "^2.0",
-                "tcg/voyager": "0.11.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "App\\Components\\Gaboot\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "anonymoussc",
-                    "email": "50c5ac69@opayq.com"
-                }
-            ],
-            "time": "2017-05-16T09:42:11+00:00"
-        },
-        {
             "name": "composer/ca-bundle",
             "version": "1.0.7",
             "source": {
@@ -273,114 +169,102 @@
             "time": "2017-03-06T11:59:08+00:00"
         },
         {
-            "name": "consigliere/components",
-            "version": "v0.3.3",
+            "name": "consigliere/appfoundation",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/consigliere/components.git",
-                "reference": "9b08bb111f0b55b0a860ed9c3407eda0d9cc1252"
+                "url": "https://github.com/consigliere/AppFoundation.git",
+                "reference": "9d4788f122ca189ad391e508fb9499cfd3df52b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consigliere/components/zipball/9b08bb111f0b55b0a860ed9c3407eda0d9cc1252",
-                "reference": "9b08bb111f0b55b0a860ed9c3407eda0d9cc1252",
+                "url": "https://api.github.com/repos/consigliere/AppFoundation/zipball/9d4788f122ca189ad391e508fb9499cfd3df52b3",
+                "reference": "9d4788f122ca189ad391e508fb9499cfd3df52b3",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "5.1.*|5.2.*|5.3.*|5.4.*",
-                "laravelcollective/html": "5.1.*|5.2.*|5.3.*|5.4.*",
-                "php": "~5.6|~7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0||~5.0",
-                "squizlabs/php_codesniffer": "^2.3"
+                "consigliere/logdb": "0.1.*"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "Consigliere\\Components\\": "src"
+                    "App\\Components\\AppFoundation\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "authors": [
                 {
                     "name": "anonymoussc",
-                    "email": "50c5ac69@opayq.com",
-                    "homepage": "https://github.com/consigliere",
-                    "role": "Developer"
+                    "email": "50c5ac69@opayq.com"
                 }
             ],
-            "description": "Components description.",
-            "homepage": "https://github.com/consigliere/components",
-            "keywords": [
-                "components",
-                "consigliere"
-            ],
-            "time": "2017-05-12T07:04:24+00:00"
+            "time": "2017-05-22T08:39:57+00:00"
         },
         {
-            "name": "consigliere/foundation",
-            "version": "v0.2.1",
+            "name": "consigliere/gaboot",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/consigliere/foundation.git",
-                "reference": "c7f6f4ba99bd481dee91fff04b3f9b4283c6cf6a"
+                "url": "https://github.com/consigliere/Gaboot.git",
+                "reference": "f9d7f76e28e261799bc5e3ab38cb26248d72ff44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consigliere/foundation/zipball/c7f6f4ba99bd481dee91fff04b3f9b4283c6cf6a",
-                "reference": "c7f6f4ba99bd481dee91fff04b3f9b4283c6cf6a",
+                "url": "https://api.github.com/repos/consigliere/Gaboot/zipball/f9d7f76e28e261799bc5e3ab38cb26248d72ff44",
+                "reference": "f9d7f76e28e261799bc5e3ab38cb26248d72ff44",
                 "shasum": ""
             },
             "require": {
-                "consigliere/components": "0.3.*",
-                "illuminate/contracts": "5.1.*|5.2.*|5.3.*|5.4.*",
-                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
-                "jeroen-g/laravel-packager": "^1.5",
-                "php": "~5.6|~7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0||~5.0",
-                "squizlabs/php_codesniffer": "^2.3"
+                "consigliere/appfoundation": "0.1.*",
+                "laravel/passport": "^2.0",
+                "tcg/voyager": "0.11.*"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "Consigliere\\Foundation\\": "src"
+                    "App\\Components\\Gaboot\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "authors": [
                 {
                     "name": "anonymoussc",
-                    "email": "50c5ac69@opayq.com",
-                    "homepage": "https://anonymoussc.github.io/",
-                    "role": "Developer"
+                    "email": "50c5ac69@opayq.com"
                 }
             ],
-            "description": "Foundation Consigliere",
-            "homepage": "https://github.com/consigliere/foundation",
-            "keywords": [
-                "consigliere",
-                "foundation"
+            "time": "2017-05-22T11:30:28+00:00"
+        },
+        {
+            "name": "consigliere/logdb",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/consigliere/LogDB.git",
+                "reference": "80a2c2cf98781947a0354c9c390fba9a786de24e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/consigliere/LogDB/zipball/80a2c2cf98781947a0354c9c390fba9a786de24e",
+                "reference": "80a2c2cf98781947a0354c9c390fba9a786de24e",
+                "shasum": ""
+            },
+            "require": {
+                "jenssegers/agent": "^2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\Components\\LogDB\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "anonymoussc",
+                    "email": "50c5ac69@opayq.com"
+                }
             ],
-            "time": "2017-05-04T11:19:31+00:00"
+            "time": "2017-05-22T08:32:26+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1852,16 +1736,16 @@
         },
         {
             "name": "laravelcollective/html",
-            "version": "v5.4.3",
+            "version": "v5.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LaravelCollective/html.git",
-                "reference": "023efce5fd8057cb3b5ce503f3391cc4effa7caa"
+                "reference": "9b8f51e7a2368911c896f5d42757886bae0717b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/023efce5fd8057cb3b5ce503f3391cc4effa7caa",
-                "reference": "023efce5fd8057cb3b5ce503f3391cc4effa7caa",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/9b8f51e7a2368911c896f5d42757886bae0717b5",
+                "reference": "9b8f51e7a2368911c896f5d42757886bae0717b5",
                 "shasum": ""
             },
             "require": {
@@ -1902,7 +1786,7 @@
             ],
             "description": "HTML and Form Builders for the Laravel Framework",
             "homepage": "http://laravelcollective.com",
-            "time": "2017-05-15T09:38:20+00:00"
+            "time": "2017-05-22T06:35:07+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -2513,6 +2397,116 @@
             "time": "2017-03-05T18:23:57+00:00"
         },
         {
+            "name": "onsigbaar/components",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onsigbaar/components.git",
+                "reference": "fd0f9ac708a4cd7d1c68a77bd6afde9ccc99e8d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onsigbaar/components/zipball/fd0f9ac708a4cd7d1c68a77bd6afde9ccc99e8d3",
+                "reference": "fd0f9ac708a4cd7d1c68a77bd6afde9ccc99e8d3",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.1.*|5.2.*|5.3.*|5.4.*",
+                "laravelcollective/html": "5.1.*|5.2.*|5.3.*|5.4.*",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0||~5.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Onsigbaar\\Components\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "anonymoussc",
+                    "email": "50c5ac69@opayq.com",
+                    "homepage": "https://github.com/onsigbaar",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Components description.",
+            "homepage": "https://github.com/onsigbaar/components",
+            "keywords": [
+                "components",
+                "onsigbaar"
+            ],
+            "time": "2017-05-22T11:12:07+00:00"
+        },
+        {
+            "name": "onsigbaar/foundation",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onsigbaar/foundation.git",
+                "reference": "a8850be3ee507bdb4f332130da66df31c14cec84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onsigbaar/foundation/zipball/a8850be3ee507bdb4f332130da66df31c14cec84",
+                "reference": "a8850be3ee507bdb4f332130da66df31c14cec84",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.1.*|5.2.*|5.3.*|5.4.*",
+                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+                "jeroen-g/laravel-packager": "^1.5",
+                "onsigbaar/components": "0.1.*",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0||~5.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Onsigbaar\\Foundation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "anonymoussc",
+                    "email": "50c5ac69@opayq.com",
+                    "homepage": "https://anonymoussc.github.io/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Foundation Onsigbaar",
+            "homepage": "https://github.com/onsigbaar/foundation",
+            "keywords": [
+                "foundation",
+                "onsigbaar"
+            ],
+            "time": "2017-05-20T19:21:05+00:00"
+        },
+        {
             "name": "paragonie/random_compat",
             "version": "v2.0.10",
             "source": {
@@ -2751,16 +2745,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.4",
+            "version": "v0.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "17cf432bb80d9198df239b80d00a29155bd74d82"
+                "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/17cf432bb80d9198df239b80d00a29155bd74d82",
-                "reference": "17cf432bb80d9198df239b80d00a29155bd74d82",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/38a9d21406597a0440690eafbcb0222f528c8ac6",
+                "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6",
                 "shasum": ""
             },
             "require": {
@@ -2820,7 +2814,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-05-12T15:41:55+00:00"
+            "time": "2017-05-17T06:49:19+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -4013,12 +4007,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tymondesigns/jwt-auth.git",
-                "reference": "560719f7df6b3159bd7704bd56c53d791b9574ed"
+                "reference": "ef4e5c9711c4d42ed581ddde6ffe341917f29607"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/560719f7df6b3159bd7704bd56c53d791b9574ed",
-                "reference": "560719f7df6b3159bd7704bd56c53d791b9574ed",
+                "url": "https://api.github.com/repos/tymondesigns/jwt-auth/zipball/ef4e5c9711c4d42ed581ddde6ffe341917f29607",
+                "reference": "ef4e5c9711c4d42ed581ddde6ffe341917f29607",
                 "shasum": ""
             },
             "require": {
@@ -4070,7 +4064,7 @@
                 "jwt",
                 "laravel"
             ],
-            "time": "2017-05-15T18:26:54+00:00"
+            "time": "2017-05-19T18:10:23+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -4890,16 +4884,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.19",
+            "version": "5.7.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "69c4f49ff376af2692bad9cebd883d17ebaa98a1"
+                "reference": "3cb94a5f8c07a03c8b7527ed7468a2926203f58b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/69c4f49ff376af2692bad9cebd883d17ebaa98a1",
-                "reference": "69c4f49ff376af2692bad9cebd883d17ebaa98a1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3cb94a5f8c07a03c8b7527ed7468a2926203f58b",
+                "reference": "3cb94a5f8c07a03c8b7527ed7468a2926203f58b",
                 "shasum": ""
             },
             "require": {
@@ -4917,7 +4911,7 @@
                 "phpunit/php-timer": "^1.0.6",
                 "phpunit/phpunit-mock-objects": "^3.2",
                 "sebastian/comparator": "^1.2.4",
-                "sebastian/diff": "~1.2",
+                "sebastian/diff": "^1.4.3",
                 "sebastian/environment": "^1.3.4 || ^2.0",
                 "sebastian/exporter": "~2.0",
                 "sebastian/global-state": "^1.1",
@@ -4968,7 +4962,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-04-03T02:22:27+00:00"
+            "time": "2017-05-22T07:42:55+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -5140,23 +5134,23 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "1.4.1",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e"
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/13edfd8706462032c2f52b4b862974dd46b71c9e",
-                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
             },
             "type": "library",
             "extra": {
@@ -5188,7 +5182,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2015-12-08T07:14:41+00:00"
+            "time": "2017-05-22T07:24:03+00:00"
         },
         {
             "name": "sebastian/environment",
