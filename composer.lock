@@ -236,16 +236,16 @@
         },
         {
             "name": "consigliere/logdb",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consigliere/LogDB.git",
-                "reference": "80a2c2cf98781947a0354c9c390fba9a786de24e"
+                "reference": "769353d2c14e3f3f1127d00171036455f60d6563"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consigliere/LogDB/zipball/80a2c2cf98781947a0354c9c390fba9a786de24e",
-                "reference": "80a2c2cf98781947a0354c9c390fba9a786de24e",
+                "url": "https://api.github.com/repos/consigliere/LogDB/zipball/769353d2c14e3f3f1127d00171036455f60d6563",
+                "reference": "769353d2c14e3f3f1127d00171036455f60d6563",
                 "shasum": ""
             },
             "require": {
@@ -264,7 +264,7 @@
                     "email": "50c5ac69@opayq.com"
                 }
             ],
-            "time": "2017-05-22T08:32:26+00:00"
+            "time": "2017-05-23T09:07:40+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
