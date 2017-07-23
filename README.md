@@ -1,6 +1,6 @@
-# z e boot
+# Gaboot
 
-A quick description of onsigbaar.
+A quick description of gaboot.
 
 ## Screenshot 1
 
