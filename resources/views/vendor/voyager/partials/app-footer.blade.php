@@ -3,7 +3,7 @@
         @if (rand(1,100) == 100)
             <i class="voyager-rum-1"></i> Love <3
         @else
-            Made with <i class="voyager-heart"></i> by <a href="https://github.com/onsigbaar/onsigbaar" target="_blank">Onsigbaar</a>
+            Made with <i class="voyager-heart"></i> by <a href="https://github.com/onsigbaar/onsigbaar" target="_blank">Gaboot</a>
         @endif
         @php $version = Voyager::getVersion(); @endphp
         @if (!empty($version))
