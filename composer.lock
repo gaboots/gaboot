@@ -181,16 +181,16 @@
         },
         {
             "name": "consigliere/gaboot",
-            "version": "v0.2.0",
+            "version": "v0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consigliere/Gaboot.git",
-                "reference": "d167ab58b83f942d9ceba8934a79050a8e81a729"
+                "reference": "71c97b749b4308493943266d5126721d46268235"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consigliere/Gaboot/zipball/d167ab58b83f942d9ceba8934a79050a8e81a729",
-                "reference": "d167ab58b83f942d9ceba8934a79050a8e81a729",
+                "url": "https://api.github.com/repos/consigliere/Gaboot/zipball/71c97b749b4308493943266d5126721d46268235",
+                "reference": "71c97b749b4308493943266d5126721d46268235",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +210,7 @@
                     "email": "50c5ac69@opayq.com"
                 }
             ],
-            "time": "2017-07-22T13:42:21+00:00"
+            "time": "2017-07-23T18:37:35+00:00"
         },
         {
             "name": "consigliere/siegnor",
