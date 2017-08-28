@@ -47,7 +47,8 @@ php artisan serve
 ### Development
 
 Delete `./public/build` directory before in the terminal running `gulp watch`.
-See [components docs](http://anonymoussc.github.io/software-engineering/2017/01/18/components-docs/).
+
+See also [components docs](http://anonymoussc.github.io/software-engineering/2017/01/18/components-docs/).
 
 ## Screenshot 1
 
