@@ -1,6 +1,6 @@
 {
   "name"           : "gaboot",
-  "version"        : "0.3.3",
+  "version"        : "0.3",
   "private"        : true,
   "scripts"        : {
     "prod"               : "gulp --production",
