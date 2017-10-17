@@ -1,17 +1,12 @@
-# ::Read Only:: :lock:
+# Legacy:Read Only :lock:
 
 # Gaboot
 
-AngularJS, angular-material, single-page application + progressive web apps + laravel.
-
-- AngularJS spa/ pwa and laravel as a restful backend api.
-- App breakdown into module/ package which can be distributed via composer.
-- Voyager admin dashboard, automatically create CRUD for data.
-- Voyager admin dashboard, Create data/ table using GUI, using cli to create migration file from existing data.
-- User, Permission, Role.
-- Basic auth or JWT-Auth available.
-- Oauth2 server include (using laravel passport).
-
+- AngularJS, angular-material, Progressive web apps
+- Laravel as restful backend api
+- Modular development, app breakdown into module/ package which can be distributed via composer.
+- Admin dashboard automatically create UI CRUD for data, paging, restrict specific section, menu visibility and else.
+- User, Permission, Role, ACL, JwtAuth, Oauth2.
 
 ## Install
 
