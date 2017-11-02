@@ -1,4 +1,4 @@
-# Legacy:Read Only :lock:
+# [LEGACY] [READ ONLY] :lock:
 
 # Gaboot
 
